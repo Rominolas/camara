@@ -1,4 +1,4 @@
-let camara_boton = document.querySelector("#Iniciar-camara");
+let camara_boton = document.querySelector("#iniciar-camara");
 let video = document.querySelector("#video");
 let clic_boton = document.querySelector("#clic-foto");
 let canvas = document.querySelector("#canvas");
@@ -18,9 +18,9 @@ camara_boton.addEventListener('click', async function() {
 
 video.srcObject = stream;
 
-video.computedStyleMap.display = 'block';
-camara_boton.computedStyleMap.display = 'none';
-clic_boton.computedStyleMap.display = 'block';
+video.style.display = 'block';
+camara_boton.style.display = 'none';
+clic_boton.style.display = 'block';
 });
 
 clic_boton.addEventListener('click', function () {
