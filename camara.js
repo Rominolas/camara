@@ -28,6 +28,6 @@ clic_boton.addEventListener('click', function () {
     let image_data_url = canvas.toDataURL('image/jpeg');
 
     dataurl.value = image_data_url;
-    dataurl_container.computedStyleMap.display = 'block';
+    dataurl_container.style.display = 'block';
 
 })
