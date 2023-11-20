@@ -2,7 +2,7 @@ let camara_boton = document.querySelector("#Iniciar-camara");
 let video = document.querySelector("#video");
 let clic_boton = document.querySelector("#clic-foto");
 let canvas = document.querySelector("#canvas");
-let dataurl = document.querySelector("dataurl");
+let dataurl = document.querySelector("#dataurl");
 let dataurl_container = document.querySelector("#dataurl-container");
 
 camara_boton.addEventListener('click', async function() {
